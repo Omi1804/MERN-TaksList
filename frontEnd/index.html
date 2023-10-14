@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Dummy Todo App</title>
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <section class="header">
+      <h1>Todo App</h1>
+    </section>
+
+    <!-- INPUT SECTION  -->
+    <section class="container">
+      <section class="input">
+        <h1>Please Enter the Title And the Description</h1>
+        <div class="form">
+          <div class="title">
+            <label for="title">Todo Title</label>
+            <input
+              type="text"
+              name="title"
+              class="titleInput"
+              id="titleInput"
+            />
+          </div>
+          <div class="description">
+            <label for="description">Description</label>
+            <input
+              type="text"
+              name="description"
+              class="descriptionInput"
+              id="descriptionInput"
+            />
+          </div>
+          <button class="submit">Submit</button>
+        </div>
+      </section>
+      <section class="todoList">
+        <h1>Todo List</h1>
+        <div class="list">
+          <ul>
+            <!-- sample li  -->
+            <!-- <li>list1</li>
+            <li>list2</li>
+            <li>list3</li> -->
+          </ul>
+        </div>
+      </section>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
