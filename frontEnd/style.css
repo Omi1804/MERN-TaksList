@@ -119,12 +119,32 @@ body {
       > li {
         margin-bottom: 1.5rem;
         list-style: none;
-        font-size: 1.1rem;
-        font-weight: 500;
-        letter-spacing: 1px;
         background-color: #edede9;
         padding: 0.5rem 1rem;
         border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > span {
+          width: 80%;
+          font-size: 1.1rem;
+          font-weight: 500;
+          letter-spacing: 1px;
+          line-height: 1.5;
+        }
+
+        > button {
+          border: 2px solid #b64533;
+          background-color: #b64533;
+          color: #fffdfb;
+          font-size: 0.9rem;
+          font-weight: 500;
+          width: 4rem;
+          height: 2rem;
+          cursor: pointer;
+          border-radius: 4px;
+        }
       }
 
       > li:hover {

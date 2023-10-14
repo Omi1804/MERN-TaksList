@@ -37,7 +37,6 @@ app.get("/todos/:id", (req, res) => {
 });
 
 //create todo from the body
-let id = 1;
 app.post("/todos", (req, res) => {
   let newTodo = req.body;
 
