@@ -30,7 +30,7 @@ submit.addEventListener("click", () => {
       headers: { "Content-Type": "application/json" },
     })
       .then((response) => {
-        if (response.of) {
+        if (response.ok) {
           console.log("Success!");
         } else {
           console.log("Failed to submit todos!");
